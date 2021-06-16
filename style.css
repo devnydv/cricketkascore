@@ -138,6 +138,10 @@ h1{
 footer{
     margin: 10px 20px;
 }
+    .para{
+    padding: 3px;
+    text-align: center;
+}
 
 .manu{
     width: 100%;
