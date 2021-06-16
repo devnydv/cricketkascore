@@ -106,11 +106,7 @@ footer{
     padding: 10px;
 }
 
-@media (max-width:1000px){
-    .elem1{
-    grid-template-columns:repeat(3, 1fr);
-}
-}
+
 
 @media (max-width:768px){
 .nav{
@@ -146,8 +142,3 @@ footer{
 }
 }
 
-@media (max-width:550px){
-    .elem1{
-    grid-template-columns:repeat(1, 1fr);
-}
-}
