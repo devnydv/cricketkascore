@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(213, 219, 219);
+}
+.nav{
+    height: 60px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 30px;
+    /* border: 2px solid grey; */
+}
+.manu{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    padding: 0px 30px 0px 0px ;
+}
+li{
+    display: inline-block;
+    margin: 1vmax;
+    text-decoration: none;
+
+}
+.logo{
+    padding: 50px;
+    width: 40%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 7px;
+}
+li a:hover{
+    background-color:LightGray;
+}
+.elem1{
+    /* height:100px; */
+    background-color: rgb(245, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center; */
+    margin: 20px 40px;
+    height: 100vh;
+}
+
+.img{
+    background-color: rgb(245, 236, 236);
+    padding: 5px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    margin: 20px 0px;
+    font-size: 20px;
+    padding: 5px;
+    border: 3px solid #1765ca;
+    background-color: #004aad;
+    border-radius: 10px;
+    font: white
+}
+
+footer{
+    height: 60px;
+    background-color: white;
+    margin: 10px 30px;
+}
+
+.fnav{
+    height: 60px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.fmanu{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    padding: 0px 30px 0px 0px ;
+}
+.fmanu img{
+    padding: 10px;
+}
+
+@media (max-width:1000px){
+    .elem1{
+    grid-template-columns:repeat(3, 1fr);
+}
+}
+
+@media (max-width:768px){
+.nav{
+    margin: 10px 20px;
+    flex-direction: column;
+    
+}
+.logo{
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 18px;
+}
+
+    .elem1{
+    grid-template-columns:repeat(1, 1fr);
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+.img img{
+    height: 200px;
+}
+footer{
+    margin: 10px 20px;
+}
+
+.manu{
+    width: 100%;
+    justify-content: center;
+    padding: 0px 0px 0px 0px ;
+}
+}
+
+/* @media (max-width:550px){
+    .elem1{
+    grid-template-columns:repeat(1, 1fr);
+}
+} */
