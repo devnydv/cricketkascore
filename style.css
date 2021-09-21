@@ -1,157 +1,163 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: rgb(213, 219, 219);
+#hemu{
+  color: white;
+  height: auto;
+  background-color: #1223E4;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px grey;
 }
-.nav{
-    height: 60px;
-    background-color: rgb(252, 252, 252);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px 30px;
-    /* border: 2px solid grey; */
-}
-.manu{
-    width: 60%;
-    display: flex;
-    justify-content: right;
-    text-decoration: none;
-    padding: 0px 30px 0px 0px ;
-}
-li{
-    display: inline-block;
-    margin: 1vmax;
-    text-decoration: none;
-
-}
-.logo{
-    padding: 50px;
-    width: 40%;
-}
-li a{
-    text-decoration: none;
-    color: black;
-    border-radius: 5px;
-    padding: 7px;
-}
-li a:hover{
-    background-color:LightGray;
-}
-.elem1{
-    /* height:100px; */
-    background-color: rgb(245, 236, 236);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap:wrap ;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center; */
-    margin: 20px 40px;
-    height: 100vh;
+#hemu #logo {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px;
 }
 
-.img{
-    background-color: rgb(245, 236, 236);
-    padding: 5px;
+#hemu
+ #mnicon{
+  display: none;
 }
-h1{
-    font-size: 25px;
+#hemu a h1{
+  color: white;
+  font-size: 22px;
+  
+  
 }
-h2{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-p{
-    font-size: 20px;
-}
-
-button{
-    margin: 20px 0px;
-    font-size: 20px;
-    padding: 5px;
-    border: 3px solid #1765ca;
-    background-color: #004aad;
-    border-radius: 10px;
-    font: white
+#hemu #logo a{
+  text-decoration: none;
+  margin-left: 60px;
 }
 
-footer{
-    height: 60px;
-    background-color: white;
-    margin: 10px 30px;
+#menug ul{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  margin-right: 50px;
+  list-style-type: none;
+}
+#menug a{
+ color: white;
+}
+#menug ul li{
+  margin: 0px 15px;
+  display: inline-block;
+  
+}
+#sct {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  background-color: #B9BBCD;
+  border-radius: 5px;
+  margin-top: 10px;
+  
 }
 
-.fnav{
-    height: 60px;
-    background-color: rgb(252, 252, 252);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px 30px;
+
+
+
+
+#score{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.fmanu{
-    width: 60%;
-    display: flex;
-    justify-content: right;
-    text-decoration: none;
-    padding: 0px 30px 0px 0px ;
-}
-.fmanu img{
-    padding: 10px;
+.kid{
+  background-color: #E2E3EF;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+  
 }
 
-@media (max-width:1000px){
-    .elem1{
-    grid-template-columns:repeat(3, 1fr);
+#score .kid p{
+  margin:10px 10px 50px 10px;
+  font-weight: bolder;
+  text-align: justify;
+  font-size: 20px;
 }
+#score .kid .para{
+  font-weight: 400;
+  margin-bottom: 10px;
+  
 }
-
-@media (max-width:768px){
-.nav{
-    margin: 10px 20px;
-    flex-direction: column;
-    
-}
-.logo{
-    padding: 0px;
-    width: 100%;
-    text-align: center;
-}
-h1{
-    font-size: 18px;
+#score .kid a{
+  margin:10px 10px;
+  text-decoration: none;
+  color:blue;
 }
 
-    .elem1{
-    grid-template-columns:repeat(1, 1fr);
-    margin: 20px 20px;
-    border-radius: 10px;
-}
-.img img{
-    height: 200px;
-}
-footer{
-    margin: 10px 20px;
-}
-    .para{
-    padding: 3px;
-    text-align: center;
+
+
+@media(max-width: 1000px){
+  
 }
 
-.manu{
-    width: 100%;
-    justify-content: center;
-    padding: 0px 0px 0px 0px ;
+@media(max-width: 700px){
+  #menug{
+  width: 100%; 
+  
+  }
+
+#hemu{
+  /* overflow: auto; */
+  width: 100%;
+  display: block;
+  color: white;
+  justify-content: left;
+  background-color: #0114E8;
 }
+#hemu h1{
+  margin-left: 10px;
+  
+  
 }
 
-/* @media (max-width:550px){
-    .elem1{
-    grid-template-columns:repeat(1, 1fr);
+#hemu #logo a{
+  text-decoration: none;
+  margin-left: 0px;
 }
-} */
+#menug ul{
+  width: 100%;
+  background-color: antiquewhite;
+  /* background-color:#4957F5; */
+  margin: 0px;
+  
+}
+#menug ul li{
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  
+}
+
+#menug  ul li:hover{
+  background-color: rgb(248, 178, 178);
+  
+}
+.notvisi{
+  display: none;
+}
+
+
+
+#hemu #mnicon{
+  display: inline-block;
+  margin: 15px 20px;
+  
+}
+
+#score{
+  grid-template-columns: repeat(1,1fr);
+}
+
+}
