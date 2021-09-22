@@ -5,7 +5,7 @@ btn.classList.toggle('notvisi')
 
 }
 
-fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37567/')
+fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37567/dc-vs-srh-33rd-match-indian-premier-league-2021')
 
 .then(res=> res.json())
 .then( data=> {
