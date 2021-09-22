@@ -5,7 +5,7 @@ btn.classList.toggle('notvisi')
 
 }
 
-fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37562/')
+fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37567/')
 
 .then(res=> res.json())
 .then( data=> {
