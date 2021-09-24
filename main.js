@@ -5,7 +5,7 @@ btn.classList.toggle('notvisi')
 
 }
 
-fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37572')
+fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37577')
 
 .then(res=> res.json())
 .then( data=> {
@@ -37,7 +37,7 @@ fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket
 
 setInterval(data,2000)
 function data(){
-fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37572')
+fetch('https://cricket-api.vercel.app/cri.php?url=https://m.cricbuzz.com/cricket-commentary/37577')
 
 .then(res=> res.json())
 .then( data=> {
